@@ -1,0 +1,104 @@
+nav p{
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    font-size: 1.5em;
+    text-align: right;
+    margin: auto;
+}
+
+/*Targeta*/
+section.tarjeta.ms-3 {
+    margin-top: 2rem;
+}
+.targeta{
+    padding: 3em !important;
+    margin-top: 60px;
+    padding-top: 2.5em;
+    margin-bottom: 60px;
+    
+}
+.ms-3 {
+    margin-left: 8rem !important;
+}
+.title{
+    font-family: 'Cabin', sans-serif;
+    font-weight: 800;
+    font-size: 2.5em;
+    text-align: left;
+    color: #373A3C;
+}
+
+
+.sub_title{
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+    color: #373A3C;
+}
+/*Carousel*/
+.carousel-indicators {
+    bottom: -50px;
+}
+
+.buttonIndicator{
+    border-radius: 2.5em !important;
+    width: 1.20em !important;
+    height: 0.01em !important;
+    background: black !important;
+} 
+
+.interlineado p{
+    line-height: 50%; 
+}
+@media only screen and (max-width: 48em) {
+    .carrusel {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/*Recetas*/
+.parrafo{
+    padding: 3em
+}
+
+
+.recetas{
+    margin-bottom: 40px;
+}
+
+#bg{
+    background: #DC3545 ;
+}
+
+.caja{
+    height: 20em;
+}
+
+.caja h4{
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    font-size: 2.10em;
+    margin-top: 2em;
+}
+.ricomida{
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    font-size: 1.3em;
+    color: #FFFFFF;
+}
+
+footer{
+    background:#373A3C ;
+    margin: 0em;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+}
+
